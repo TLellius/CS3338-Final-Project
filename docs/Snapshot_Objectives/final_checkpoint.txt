@@ -1,0 +1,13 @@
+We are satisfied with what our website currently has to offer. Our goal for this final checkpoint is to improve our
+UI and optimize the many technical aspects of our website, including:
+Front-End: 
+Performance Optimization: Faster load times 
+Accessibility: Intuitive UI for all user types, especially those who suffer disabilities
+Back-End: 
+Efficient Data Management: Optimizing storage, indexing, and retrieval of the website's datasets
+Integration: Establishing smooth communication between Java servlets and Node.js to keep the data flow across the system reliable
+Real-Time Processing: Ensuring low-latency responses to support user interactions like rock scouting and classification
+
+We hoped to add a more robust system for handling ambiguous rocks during the rock classification process, however
+we'll have to start on that after the initial launch of the website. Still, we are very proud of the work we have
+done and wish to continue working on this project in support of connecting the public to science and lunar geology.

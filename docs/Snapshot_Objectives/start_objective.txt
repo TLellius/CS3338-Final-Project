@@ -1,0 +1,24 @@
+Our start objective covers what we wish to complete in the first 2 out of 4 months of our project:
+
+We have decided on several dependencies for our front-end and back-end. This will form the framework of the
+Viper Rocks project.
+Front-End:
+React: Main UI Framework. Offers many libraries and tools. Its Virtual DOM (Document Object Model) allows for
+efficient UI updates and only updates the real DOM, which serves as our UI, only when necessary. It is also
+component-based, which means that it is built from small, reusable pieces. This falls under the definition of 
+modular. This makes it easier to create, clean, and maintain code.
+Vite: Build and Deployment Tool. Allows us to quickly develop web applications in a local dev server. Quickly and 
+efficiently bundles our code to be a faster-running website.
+
+Back-End:
+Tomcat: Application Server for Backend Hosting. Can run Java-based applications with the support of servlets and 
+JSP (JavaServer Pages). It's scalable and easy to configure and deploy with minimal effort necessary.
+Node.js: Backend Framework for API Development. It is event-driven, meaning it responds to specified occurrences 
+rather than executing the code upon starting up. Offers thousands of npm packages to assist with development. It 
+is also scalable. It will also be how we connect to our databases.
+
+We will have one half of our team work on the front-end and the other half work on the back-end. Tasks will be
+assigned evenly.
+Our current major objective is to get the base features running. We hope for the home page, the login/sign-up page,
+the database, and the basic scouting page. The basic scouting page will, for now, access a random layout from
+the database. It will split the images into 9 segments in the form of a 3x3 grid.
