@@ -1,0 +1,3 @@
+IMPORTANT: This project does not officially represent the Viper Rocks! (now named Lunar Rocks!) project in any capacity. This project is using it as a template as we test our expertise in various tools including: GitHub, Docker, Jira, TestRail, and LaTeX.
+However, we do encourage you to look into the Lunar Rocks! project if you have an interest in participating and contributing to the study of lunar geology, as well as lunar exploration!
+https://ascent.cysun.org/project/project/view/227
