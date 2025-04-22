@@ -1,0 +1,30 @@
+The Viper Rocks! Website has many processes, working together to give users an easy and intuitive interface to
+access the website's many features.
+
+
+
+The Viper Rocks! main control system handles web display. Web display means rendering the contents of what the
+user should currently be looking at.
+
+The database handles requests from all aspects of the website, mainly the main control, the main page, the main
+tasks, and the explore page.
+
+The main control acts as the middleman between the sign in page and the database. When users attempt to login,
+the sign in page sends a signal to the main control who sends a signal to the database. If the login credentials 
+are correct, the database will send back the data necessary to process the login. If the login credentials are 
+incorrect, the database will send back a deny message that states the credentials were incorrect. The user will
+have to try to login again.
+
+The sign-in page also lets a user create an account. If the user wishes to do so, they can go to the sign-up page.
+When the user gives a username, password, and email for their account, once again the main control acts as a
+middleman between the given page and the database. If the username or email matches an account in the database
+already, then the database will reject the sign-up request. If there is no match, then the database accepts the
+sign-up request and records the account details.
+
+The main page gets the data necessary to render itself and its related pages from the database. When the user
+enters the main page, they start off on the Home page. The user may also go to the About Us or the Contact Us
+page.
+
+The main tasks page is where users can conduct their lunar rock research and analysis. It leads to the scouting, 
+sizing, and classification pages. When the user finishes a task on either of the pages, the user will be taken back
+to the main tasks page. Also, the page will mark and record the results of the task to send to the main tasks page.
