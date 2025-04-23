@@ -1,5 +1,5 @@
-Jira Link: 
-
+Jira Link (MEANT FOR INSTRUCTOR): 
+https://spring2025-cs3338-group-2.atlassian.net/jira/software/projects/VRMP/boards/6
 
 Objectives: 
 The Viper Rocks! project plays a vital role in establishing a sustainable presence on the Moon: a vision that NASA shares. Mapping and analyzing the distribution of materials and resources on the Moon paves the way for further understanding of the Moon and its mysteries.
