@@ -1,0 +1,99 @@
+\documentclass{article}
+
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+\title{Snapshot Objectives}
+\author{Tony Lau}
+\date{April 25th, 2025}
+
+\maketitle
+
+\section{Start Objective}
+\fancyhf{}
+\fancyhead[C]{Snapshot Objectives}
+\fancyfoot[C]{\thepage}
+
+Our start objective covers what we wish to complete in the first 2 out of 4 months of our project. We have decided on several dependencies for our front-end and back-end. This will form the framework of the
+Viper Rocks project.
+
+We will have one half of our team work on the front-end and the other half work on the back-end. Tasks will be
+assigned evenly. Our current major objective is to get the base features running. We hope for the home page, the login/sign-up page, the database, and the basic scouting page. The basic scouting page will, for now, access a random layout from the database. It will split the images into 9 segments in the form of a 3x3 grid.
+
+\subsection{Front-End}
+\textbf{React}: Main UI Framework. Offers many libraries and tools. Its Virtual DOM (Document Object Model) allows for efficient UI updates and only updates the real DOM, which serves as our UI, only when necessary. It is also component-based, which means that it is built from small, reusable pieces. This falls under the definition of modular. This makes it easier to create, clean, and maintain code.
+
+\textbf{Vite}: Build and Deployment Tool. Allows us to quickly develop web applications in a local dev server. Quickly and efficiently bundles our code to be a faster-running website.
+
+\subsection{Back-End}
+ 
+\textbf{Tomcat}: Application Server for Backend Hosting. Can run Java-based applications with the support of servlets and JSP (JavaServer Pages). It's scalable and easy to configure and deploy with minimal effort necessary.
+
+\textbf{Node.js}: Backend Framework for API Development. It is event-driven, meaning it responds to specified occurrences rather than executing the code upon starting up. Offers thousands of npm packages to assist with development. It is also scalable. It will also be how we connect to our databases.
+
+\section{Checkpoint 1}
+With the basic scouting page established, we now aim to add interactive tools for the user to utilize. These tools
+will assist users in efficient rock analysis and progress management. These tools include:
+Drag - Rock Selection Tool
+Makes selecting and moving rocks using a drag-and-drop tool.
+Simplifies the interaction and organization of elements.
+
+\textbf{Drawing - Precision Tools}:
+Drawing tools that allow for detailed annotations or measurements.
+Helps maintain accurate rock analysis and documentation.
+
+\textbf{Undo/Redo - User Error Recovery}:
+Quickly undo or redo actions to correct mistakes.
+Provides an intuitive user experience and promotes user creativity to attempt more unusual decisions.
+
+\textbf{Save - Progress Preservation:}:
+Automatically saves work periodically to ensure no progress is lost.
+Enables users to seamlessly resume tasks from where they left off.
+
+We also hope to establish a Contact Us Page, which will provide users a way to reach out to us, the creators,
+in regards to inquiries, support, or feedback. This ensures that the thoughts of the user are directed to the
+appropriate channels for efficient resolution. It will also build trust and good will between us and the users
+that wishes to foster the organization and the community surrounding lunar geology.
+The Contact Us Page will consist of a Name, Email, and Message text section for the user to type into to explain
+their query while also providing a way to reply back to their questions or feedback.
+\section{Checkpoint 2}
+For Checkpoint 2, we wish to finalize our scouting page with the classification section of it. Its purpose is to
+streamline the rock classification process with defined categories, clear guidance, and robust ambiguity management.
+
+There are 6 defined shape categories, including: Angular, sub-angular, sub-rounded, and rounded. These all come
+with examples for visual guidance. This ensures consistent and accurate classification standards.
+
+We handle ambiguity by skipping unclassifiable cases. We hope to encourage user discussion regarding these outliers
+
+We also plan on creating the FAQ (Frequently Asked Questions) page. It will provide quick answers for common
+questions that users tend to have. Not only does this enhance the general understanding of a typical user, it also
+reduces the amount of support requests we'd receive that require our attention.
+The FAQ page will see constant updates as users continue to use our website.
+\section{Final Checkpoint}
+We are satisfied with what our website currently has to offer. Our goal for this final checkpoint is to improve our
+UI and optimize the many technical aspects of our website, including:
+
+\textbf{Front-End: }
+
+Performance Optimization: Faster load times 
+
+Accessibility: Intuitive UI for all user types, especially those who suffer disabilities
+
+\textbf{Back-End: }
+
+Efficient Data Management: Optimizing storage, indexing, and retrieval of the website's datasets
+
+Integration: Establishing smooth communication between Java servlets and Node.js to keep the data flow across the system reliable
+
+Real-Time Processing: Ensuring low-latency responses to support user interactions like rock scouting and classification
+
+\section{Conclusion}
+We hoped to add a more robust system for handling ambiguous rocks during the rock classification process, however we'll have to start on that after the initial launch of the website. Still, we are very proud of the work we have done and wish to continue working on this project in support of connecting the public to science and lunar geology.
+
+\end{document}

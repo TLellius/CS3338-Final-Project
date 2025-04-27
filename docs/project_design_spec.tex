@@ -1,0 +1,52 @@
+\documentclass{article}
+
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+\title{Design Spec}
+\author{Tony Lau}
+\date{April 25th, 2025}
+
+\maketitle
+
+\fancyhf{}
+\fancyhead[C]{Design Spec}
+\fancyfoot[C]{\thepage}
+
+The Viper Rocks! website combines multiple processes to offer users a fun and intuitive time as they experience the world outside our planet. This document will explain how each section of the website functions.
+
+\section{Main Control System}
+The \textit{Main Control system} handles web display. Web display means rendering the contents of what the
+user should currently be looking at.
+
+\section{Database}
+The \textit{database} handles requests from all aspects of the website, mainly the main control, the main page, the main tasks, and the explore page.
+
+\section{Main Page}
+The \textit{Main page} gets the data necessary to render itself and its related pages from the database. When the user enters the main page, they start off on the \textit{Home page}. The user may also go to the \textit{About Us} or the \textit{Contact Us page}.
+
+\section{Login Page}
+The \textit{Main Control} acts as the middleman between the \textit{Sign-In} page and the \textit{database}. When users attempt to login, the sign in page sends a signal to the main control who sends a signal to the database. If the login credentials are correct, the database will send back the data necessary to process the login. If the login credentials are incorrect, the database will send back a deny message that states the credentials were incorrect. The user will have to try to login again.
+
+\section{Sign-In and Sign-Up Pages}
+The \textit{Sign-In page} also lets a user create an account. If the user wishes to do so, they can go to the \textit{Sign-Up page}. When the user gives a username, password, and email for their account, once again the main control acts as a middleman between the given page and the \textit{database}. If the username or email matches an account in the database already, then the database will reject the sign-up request. If there is no match, then the database accepts the sign-up request and records the account details.
+
+\section{Main Tasks Page}
+The \textit{Main Tasks page} is where users can conduct their lunar rock research and analysis. It leads to the scouting, sizing, and classification pages. When the user finishes a task on either of the pages, the user will be taken back to the main tasks page. Also, the page will mark and record the results of the task to send to the main tasks page.
+
+\section{Contact Us Page}
+The \textit{Contact Us page} contains a simple form for users to submit any questions they have regarding the website. It consists of a Name field, an Email field, and a Message field. When the user submits their form, it is sent to our Jira Support Desk where anybody on the team can decide to respond to the question. If the message mentions a bug, the person who decides to respond will try to replicate the bug (if information is not sufficient, they will reply to the message asking for more details). Once the bug is found to be replicatable, they will add the bug to our Jira bug report board, where it will be left open for anyone to fix.
+
+\section{About Us and FAQ Pages}
+These pages doesn't have any particularly complicated functions. They both simply display text. The \textit{About Us page} displays information about the developers of the website while the \textit{FAQ page} displays common questions and answers that users may have and need.
+
+\section{Admin Dashboard}
+This page consists of statistics and tools to assist us in development. For example, it displays a list of images made for the scouting page and how many rocks it contains.
+
+\end{document}
